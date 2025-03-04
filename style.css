@@ -12,8 +12,7 @@ body {
   background-color: #eeecec;
   box-shadow: 0px 0px 50px rgba(13, 13, 13, 1);
 }
-header {
-}
+
 .headers {
   padding: 22px 100px;
 }
@@ -51,8 +50,7 @@ header {
   font-style: normal;
   font-size: 18px;
 }
-#rooms b {
-}
+
 .search {
   position: relative;
 }
