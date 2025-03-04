@@ -297,6 +297,7 @@ CatogoryButton p {
   width: 350px;
   height: 280px;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .information {
