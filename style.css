@@ -79,10 +79,16 @@ header {
 }
 .tel {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: "Judson", serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .support {
-  font-size: 11px;
+  font-size: 13px;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .header12 {
   display: flex;
@@ -335,6 +341,9 @@ CatogoryButton p {
   width: 50%;
   font-size: 1.5rem;
   padding-top: 50px;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .form input {
@@ -345,7 +354,7 @@ CatogoryButton p {
 }
 
 .form label {
-  line-height: 50px;
+  line-height: normal;
 }
 
 .form button {
@@ -366,6 +375,9 @@ CatogoryButton p {
   padding-top: 25px;
   padding-right: 30px;
   padding-left: 30px;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .policy a {
