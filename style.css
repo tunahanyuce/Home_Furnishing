@@ -381,3 +381,141 @@ CatogoryButton p {
 .policy a:visited {
   color: black;
 }
+/*  Tabletler için (768px ve daha küçük ekranlar) */
+@media (max-width: 768px) {
+  .container {
+      margin: 20px 5%;
+      padding: 20px;
+  }
+
+  .headers {
+      padding: 15px;
+  }
+
+  .header1 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .header11 {
+      justify-content: center;
+  }
+
+  #search {
+      width: 100%;
+      margin: 5px 0;
+  }
+
+  .search img {
+      left: 90%;
+  }
+
+  .header12 {
+      justify-content: center;
+  }
+
+  .resimli2 {
+      padding: 1rem 2rem;
+      justify-content: center;
+  }
+
+  .sofa {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .sofa p {
+      width: 100%;
+      text-align: center;
+      margin: 20px 0;
+  }
+
+  .sofa img {
+      width: 100%;
+      height: auto;
+  }
+
+  .armchair {
+      width: 100%;
+      height: auto;
+      margin: 0;
+  }
+
+  .armchair img {
+      width: 100%;
+      height: auto;
+  }
+
+  .information {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      height: auto;
+      padding: 20px;
+  }
+
+  .looking,
+  .form {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .form input {
+      width: 90%;
+  }
+
+  .footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+}
+
+/*  Telefonlar için (480px ve daha küçük ekranlar) */
+@media (max-width: 480px) {
+  .headers {
+      padding: 10px;
+  }
+
+  .logo {
+      width: 40px;
+      height: 40px;
+  }
+
+  #rooms {
+      width: 100%;
+  }
+
+  .search img {
+      left: 85%;
+  }
+
+  .resimli2 {
+      padding: 1rem;
+  }
+
+  .sofa,
+  .armchair {
+      width: 100%;
+      height: auto;
+  }
+
+  .room,
+  .product {
+      width: 100%;
+      height: auto;
+  }
+
+  .room img,
+  .product img {
+      width: 100%;
+      height: auto;
+  }
+
+  .footer {
+      flex-direction: column;
+  }
+}
