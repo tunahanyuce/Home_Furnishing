@@ -22,7 +22,7 @@ body {
   flex-wrap: wrap;
   row-gap: 10px;
 }
-.header11 {
+.header__logo-container {
   display: flex;
   flex-wrap: wrap;
   row-gap: 25px;
@@ -48,7 +48,7 @@ body {
   font-family: "Bellota", cursive;
   font-weight: 700;
   font-style: normal;
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 .search {
@@ -68,7 +68,9 @@ body {
 .search img {
   position: absolute;
   top: 10px;
-  left: 245px;
+  /* left: 245px; */
+  right: 15%;
+
 }
 .connection {
   margin-left: 10px;
@@ -88,12 +90,13 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-.header12 {
+.header__icons {
   display: flex;
   justify-content: flex-end;
   gap: 20px;
 }
-.header12 img {
+.header__icons
+ img {
   width: 50px;
   height: 50px;
   margin-top: 5px;
@@ -107,7 +110,7 @@ hr {
   flex-wrap: wrap;
   gap: 30px;
 }
-.CatogoryButton {
+.category-button {
   margin-right: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -122,7 +125,7 @@ hr {
   font-weight: 400;
   font-style: italic;
 }
-CatogoryButton p {
+.category-button p {
   display: flex;
   flex-wrap: wrap;
 }
@@ -195,7 +198,7 @@ CatogoryButton p {
   font-style: italic;
   font-family: "Judson", serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .armchair img {
   width: 400px;
@@ -208,7 +211,7 @@ CatogoryButton p {
   font-family: "Judson", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .browse {
@@ -238,9 +241,7 @@ CatogoryButton p {
 }
 
 .room p {
-  position: relative;
-  left: 15px;
-  top: 15px;
+  padding: 20px;
 }
 
 .room img {
@@ -257,7 +258,7 @@ CatogoryButton p {
   font-family: "Judson", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .browseproduct {
@@ -318,7 +319,7 @@ CatogoryButton p {
   font-family: "Judson", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .looking span {
@@ -353,7 +354,7 @@ CatogoryButton p {
 
 .form button {
   background-color: #d9d9d9;
-  width: 25%;
+  width: 90px;
   height: 40px;
   border-radius: 5px;
   text-align: left;
@@ -398,7 +399,7 @@ CatogoryButton p {
       text-align: center;
   }
 
-  .header11 {
+  .header__logo-container {
       justify-content: center;
   }
 
@@ -408,10 +409,10 @@ CatogoryButton p {
   }
 
   .search img {
-      left: 90%;
+      right: 10%;
   }
 
-  .header12 {
+  .header__icons {
       justify-content: center;
   }
 
@@ -490,7 +491,8 @@ CatogoryButton p {
   }
 
   .search img {
-      left: 85%;
+      right: 5%;
+  
   }
 
   .resimli2 {
@@ -506,16 +508,20 @@ CatogoryButton p {
   .room,
   .product {
       width: 100%;
+      /* max-width: 350px; */
       height: auto;
   }
 
   .room img,
   .product img {
-      width: 100%;
+     width: 100%;
       height: auto;
   }
 
   .footer {
       flex-direction: column;
+  }
+  #button{
+    width: 40%;
   }
 }
